@@ -1,4 +1,8 @@
-/* Fazer um programa para ler as medidas da largura e comprimento de um terreno retangular com uma casa decimal, bem como o valor do metro quadrado do terreno com duas casas decimais. Em seguida, o programa deve mostrar o valor da área do terreno, bem como o valor do preco do terreno, ambos com duas casas decimais. */
+/* 
+* EXERCÍCIO RESOLVIDO 01 - ÁREA E PREÇO DO TERRENO
+*
+Fazer um programa para ler as medidas da largura e comprimento de um terreno retangular com uma casa decimal, bem como o valor do metro quadrado do terreno com duas casas decimais. Em seguida, o programa deve mostrar o valor da área do terreno, bem como o valor do preco do terreno, ambos com duas casas decimais. 
+*/
 
 package jesseroder.com.github.exercicios_resolvidos;
 
@@ -26,6 +30,7 @@ public class ExercicioResolvido01AreaPreco {
         System.out.println();
         System.out.printf("Área do terreno: %.2f%n", area);
         System.out.printf("Preço do terreno: %.2f%n", preco);
+        
         sc.close();
     }
 }
